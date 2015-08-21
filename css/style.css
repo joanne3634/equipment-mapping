@@ -1,0 +1,82 @@
+body{
+	line-height: 1.7em;
+}
+.ink-table{
+	font-size: 12px;
+	text-align: center;
+}
+.ink-grid{
+	margin-bottom: 2em;
+}
+.ink-form{
+	font-size: 14px;
+}
+.table-title{
+	padding-top: 1em;
+	text-align: center;
+}
+.input-title{
+	padding-top: 1em;
+	text-align: center;
+}
+.input-hint{
+	white-space: pre;
+}
+.card-left .regular-input{
+	font-weight: 400;
+}
+.card-left .wrong-input{
+	font-style: italic;
+}
+select#data{
+	margin-left:1em;
+	padding-left:1em;
+	height: 10.5em;
+}
+select#data option{
+	padding: 3px;
+}
+table.ink-table td, table.ink-table th {
+	padding: 2px 2px;
+}
+th {
+    font-weight: normal;
+}
+.equipment-box{
+    background-color: khaki;
+    display: inline-block;
+    margin: 3px 1px;
+    padding: .2em .5em;
+}
+textarea.inputArea{
+	min-height: 10em;
+}
+.ink-button.blue{
+	vertical-align: bottom;
+	margin: 5px 0px;
+}
+.card{
+	border: solid 1px gray;
+	border-radius: 3px;
+	text-align: center;
+    margin: .5em .1em;
+}
+.card .card-title{
+	background-color: khaki;
+	border-bottom: solid 1px gray;
+	padding: .5em 0px;
+}
+
+.card .card-content{
+	padding: .5em .5em;
+	font-weight: 600;
+}
+span{
+	color: gray;
+	opacity: .3;
+}
+@media screen and (max-width: 414px) {
+	.card{
+		font-size: 12px;
+	}
+}
